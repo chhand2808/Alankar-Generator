@@ -156,7 +156,7 @@ fun AarohSection(notes: List<String>, generatedPattern: List<List<String>>, onPa
                     selectedNotes.removeLast()
                 }
             }) {
-                Text("Clear Only Last Note")
+                Text("Clear Last Note")
             }
         }
     }
